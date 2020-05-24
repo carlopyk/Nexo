@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Menú">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_clases"
+                    android:visible="false"
+                    android:title="Clases"
+                    android:checkable="true"
+                    android:icon="@drawable/icon_clases"/>
+                <item
+                    android:id="@+id/nav_horario"
+                    android:visible="false"
+                    android:title="Horario"
+                    android:checkable="true"
+                    android:icon="@drawable/icon_horario"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Opciones">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Cerrar Sesión"
+                android:checkable="true"
+                android:icon="@drawable/icon_logout"/>
+        </group>
+    </menu>
+</item>
+</menu>

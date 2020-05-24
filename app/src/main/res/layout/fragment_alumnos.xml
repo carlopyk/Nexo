@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.AlumnosFragment">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabalumno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        fab:fab_addButtonColorNormal="@color/colorProfesorOscuro"
+        fab:fab_addButtonColorPressed="@color/colorTerminado"
+        fab:fab_addButtonSize="normal"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp"
+            android:text="Correo"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_correo_small"
+            fab:fab_colorNormal="@color/colorProfesor"
+            fab:fab_colorPressed="@color/colorTerminado"
+            fab:fab_size="mini"
+            fab:fab_title="Correo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp"
+            android:text="Avisos"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_alert_small"
+            fab:fab_colorNormal="@color/colorProfesor"
+            fab:fab_colorPressed="@color/colorTerminado"
+            fab:fab_size="mini"
+            fab:fab_title="Aviso" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvalumnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:layout_constraintStart_toStartOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

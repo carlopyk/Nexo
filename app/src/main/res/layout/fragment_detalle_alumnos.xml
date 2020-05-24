@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.DetalleAlumnosFragment">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Tarea hecha"
+        android:textColor="#23AC00"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivtareahecha"
+        fab:layout_constraintStart_toStartOf="@+id/ivtareahecha"
+        fab:layout_constraintTop_toBottomOf="@+id/ivtareahecha" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="En equipo"
+        android:textColor="#23AC00"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivenequipo"
+        fab:layout_constraintStart_toStartOf="@+id/ivenequipo"
+        fab:layout_constraintTop_toBottomOf="@+id/ivenequipo" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Puntual"
+        android:textColor="#23AC00"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivpuntual"
+        fab:layout_constraintStart_toStartOf="@+id/ivpuntual"
+        fab:layout_constraintTop_toBottomOf="@+id/ivpuntual" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Participativo"
+        android:textColor="#23AC00"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivparticipativo"
+        fab:layout_constraintStart_toStartOf="@+id/ivparticipativo"
+        fab:layout_constraintTop_toBottomOf="@+id/ivparticipativo" />
+
+    <ImageView
+        android:id="@+id/ivtareahecha"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/like"
+        android:tag="Tarea hecha"
+        fab:layout_constraintStart_toStartOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivenequipo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:src="@drawable/equipo"
+        android:tag="En equipo"
+        fab:layout_constraintStart_toEndOf="@+id/ivtareahecha"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivpuntual"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/puntual"
+        android:tag="Puntual"
+        fab:layout_constraintEnd_toStartOf="@+id/ivparticipativo"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivparticipativo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/participa"
+        android:tag="Participativo"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Tarea sin hacer"
+        android:textColor="#FF2323"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivtareanohecha"
+        fab:layout_constraintStart_toStartOf="@+id/ivtareanohecha"
+        fab:layout_constraintTop_toBottomOf="@+id/ivtareanohecha" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Impuntual"
+        android:textColor="#FF2323"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivimpuntual"
+        fab:layout_constraintStart_toStartOf="@+id/ivimpuntual"
+        fab:layout_constraintTop_toBottomOf="@+id/ivhablador" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Hablador"
+        android:textColor="#FF2323"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivhablador"
+        fab:layout_constraintStart_toStartOf="@+id/ivhablador"
+        fab:layout_constraintTop_toBottomOf="@+id/ivimpuntual" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:text="Distraido"
+        android:textColor="#FF2323"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="@+id/ivdistraido"
+        fab:layout_constraintStart_toStartOf="@+id/ivdistraido"
+        fab:layout_constraintTop_toBottomOf="@+id/ivdistraido" />
+
+    <ImageView
+        android:id="@+id/ivtareanohecha"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:src="@drawable/dislike"
+        android:tag="Tarea sin hacer"
+        fab:layout_constraintStart_toStartOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivhablador"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="240dp"
+        android:layout_weight="1"
+        android:src="@drawable/hablador"
+        android:tag="Hablador"
+        fab:layout_constraintStart_toEndOf="@+id/ivtareahecha"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivimpuntual"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/impuntual"
+        android:tag="Impuntual"
+        fab:layout_constraintEnd_toStartOf="@+id/ivparticipativo"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivdistraido"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/distraido"
+        android:tag="Distraido"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvcanjear"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintStart_toStartOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Puntos canjeados"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        fab:layout_constraintBottom_toTopOf="@+id/rvcanjear"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvpuntosizq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:background="@drawable/rectanguloredondeado"
+        android:gravity="center"
+        android:text="Puntos"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        fab:layout_constraintBottom_toBottomOf="@+id/tvpuntuacion"
+        fab:layout_constraintStart_toStartOf="parent"
+        fab:layout_constraintTop_toTopOf="@+id/tvpuntuacion" />
+
+    <TextView
+        android:id="@+id/tvpuntosder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/rectanguloredondeado"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        fab:layout_constraintBottom_toBottomOf="@+id/tvpuntuacion"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintTop_toTopOf="@+id/tvpuntuacion" />
+
+    <TextView
+        android:id="@+id/tvpuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/circulogrande"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        fab:layout_constraintEnd_toEndOf="parent"
+        fab:layout_constraintStart_toStartOf="parent"
+        fab:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

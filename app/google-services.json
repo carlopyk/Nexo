@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "193082335655",
+    "firebase_url": "https://nexo-b808e.firebaseio.com",
+    "project_id": "nexo-b808e",
+    "storage_bucket": "nexo-b808e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193082335655:android:d1f0d8c9607ef651ea5682",
+        "android_client_info": {
+          "package_name": "net.azarquiel.nexo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193082335655-uts0rfffecl6g5qruo006a26tu0q39u7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.azarquiel.nexo",
+            "certificate_hash": "00364da5e2b2de7d1dc87cba8a2ac0eb72ba55c6"
+          }
+        },
+        {
+          "client_id": "193082335655-u9vn45mm8b9capdf9imj3vjfhl29hpl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlvyEnknVuNBHbBzQ91oCqFO5Qxa_hIx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193082335655-u9vn45mm8b9capdf9imj3vjfhl29hpl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

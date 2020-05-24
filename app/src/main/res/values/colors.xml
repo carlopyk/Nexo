@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0487BD</color>
+    <color name="colorPrimaryDark">#005D83</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorProfesorClaro">#4BB6FF</color>
+    <color name="colorProfesor">#0487BD</color>
+    <color name="colorProfesorOscuro">#005D83</color>
+    <color name="colorAlumnoClaro">#89E48E</color>
+    <color name="colorAlumno">#308536</color>
+    <color name="colorAlumnoOscuro">#255F29</color>
+    <color name="colorPadreClaro">#FACE4E</color>
+    <color name="colorPadre">#E29F03</color>
+    <color name="colorPadreOscuro">#B37504</color>
+    <color name="colorTrabajo">#64BFD1</color>
+    <color name="colorEjercicio">#6ADA43</color>
+    <color name="colorExamen">#F17878</color>
+    <color name="colorTerminado">#666666</color>
+    <color name="colorRojo">#FF3030</color>
+</resources>

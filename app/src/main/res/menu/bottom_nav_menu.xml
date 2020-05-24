@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_alumnos"
+        android:icon="@drawable/icon_alumnos"
+        android:visible="false"
+        android:title="Alumnos" />
+
+    <item
+        android:id="@+id/navigation_puntos"
+        android:icon="@drawable/icon_puntos"
+        android:visible="false"
+        android:title="Puntos" />
+
+    <item
+        android:id="@+id/navigation_asistencia"
+        android:icon="@drawable/icon_asistencia"
+        android:title="Asistencia" />
+
+    <item
+        android:id="@+id/navigation_trabajos"
+        android:icon="@drawable/icon_trabajos"
+        android:title="Trabajos" />
+    <item
+        android:id="@+id/navigation_avisos"
+        android:icon="@drawable/icon_alert_big"
+        android:visible="false"
+        android:title="Avisos" />
+
+</menu>
