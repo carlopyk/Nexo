@@ -104,8 +104,6 @@ class AsistenciaFragment(asignaturaPulsada: Asignatura) : Fragment() {
             if (snapshot != null && !snapshot.isEmpty) {
                 documentToList(snapshot.documents)
                 adapterAsistencia.setAlumnos(alumnos)
-                val alumnos2 = ArrayList(alumnos.sortedWith(compareBy { it.nombre }))
-                alumnos = alumnos2
                 asistencias = adapterAsistencia.getAsistencias()
             } else {
                 Log.d(Constraints.TAG, "Current data alumnos: null")
